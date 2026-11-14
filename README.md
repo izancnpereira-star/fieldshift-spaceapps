@@ -13,9 +13,12 @@ culturas** que protejam o solo e se adaptem ao clima que está mudando.
 3. Calcula o ISNA e o **risco climático** de 6 culturas (soja, milho safrinha, sorgo, feijão, crotalária e braquiária)
    para 36 decêndios de semeadura × 6 níveis de retenção de água no solo (muito baixa → muito alta; classes AD1–AD6 do ZARC).
 4. **Field Shift:** compara o risco entre 1991–2008 e 2009–2024.
-5. **Recomendador de rotação:** a partir do histórico do agricultor, do solo, da data de plantio e das prioridades
-   (menos risco, saúde do solo, diversificação), ordena as sequências *safra de grão → safrinha/cobertura/pousio* com nota,
-   motivo e gráfico.
+5. **Recomendador de rotação:** compara pelo menos três estratégias, **sempre incluindo a rotação atual** do agricultor,
+   em **cartões verde/amarelo/vermelho** (faixas de risco do ZARC). Cada cartão mostra risco de falta de água e quanto ele
+   mudou, água que a lavoura usa, dias de calor extremo, risco de geada, por que foi sugerida, benefícios, o que avaliar
+   com o agrônomo e onde faltam informações.
+6. **Como ler os resultados:** glossário em linguagem simples (evapotranspiração, balanço hídrico, ISNA, decêndio) e o
+   aviso de que a ferramenta apoia, mas não substitui, o produtor e o agrônomo.
 
 ## Como usar
 
