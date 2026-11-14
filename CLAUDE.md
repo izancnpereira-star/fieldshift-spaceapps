@@ -31,6 +31,7 @@ e a longo prazo alimentar um **Geo-Climatic Risk Rating** para crédito agrícol
   3. **ISNA** por fase da soja para 36 decêndios × classes de solo AD1–AD6; risco = frequência de anos com falha
      (limites 0,50 fase inicial / 0,55 reprodutiva).
   4. Compara 1991–2008 × 2009–2024 e testa tendência da chuva out–mar (Kendall).
+  5. Recomendador de rotação para o desafio *Field Shift: Adapting Farms with NASA Data* (Space Apps 2026).
 - Parâmetros da cultura (fases, Kc) e AD5/AD6 são **provisórios** — calibrar com a documentação do ZARC.
 
 ### Dados conhecidos
@@ -43,9 +44,11 @@ e a longo prazo alimentar um **Geo-Climatic Risk Rating** para crédito agrícol
 ### Pendências / próximos passos
 
 - [ ] Obter a tábua de risco ZARC (soja, Uberlândia) e comparar com `tabua_risco_nasa_power.csv`.
-- [ ] Calibrar fases/Kc da soja; criar milho safrinha, sorgo, feijão.
+- [x] Criar milho safrinha, sorgo, feijão, crotalária e braquiária (parâmetros provisórios).
+- [ ] Calibrar fases/Kc/limites de ISNA de todas as culturas.
 - [ ] Rodar para vários municípios (lista lat/lon) e montar mapa.
-- [ ] Motor de rotação (soja → milho safrinha → cobertura) usando janelas de baixo risco + tabela de cultivares.
+- [x] Recomendador de rotação (risco recente + saúde do solo + diversificação, com prioridades do agricultor).
+- [ ] Usar a tabela de cultivares no recomendador.
 - [ ] Ajustar o link do Colab no README quando existir a branch `main`.
 
 ## Notas técnicas do ambiente
