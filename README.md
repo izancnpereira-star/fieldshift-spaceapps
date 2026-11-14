@@ -33,5 +33,7 @@ Saídas: `tabua_risco_nasa_power.csv` (risco por cultura, solo e decêndio) e `c
 Dependências: `requests`, `pandas`, `numpy`, `matplotlib`, `scipy`. A simulação é vetorizada e roda em segundos,
 mesmo em computador com 4 GB de RAM.
 
-> ⚠️ Durações das fases, Kc, limites de ISNA e notas de saúde do solo são **provisórios** — calibrar com a documentação
-> do ZARC e com agrônomos. As classes AD seguem as faixas da IN SPA/MAPA nº 1/2022.
+> 📚 **Parâmetros:** ciclos, limites de ISNA, profundidade de raiz, água disponível no solo e limites de calor/geada vêm das
+> portarias do **ZARC** (MAPA/Embrapa): soja MG 2025/26, milho 2ª safra DF, feijão 1ª safra MG e sorgo granífero.
+> A divisão do ciclo em fases e o Kc seguem a FAO-56. Crotalária, braquiária e as notas de saúde do solo são **estimativas**
+> a validar com agrônomo.
