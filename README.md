@@ -20,8 +20,8 @@ culturas** que protejam o solo e se adaptem ao clima que está mudando.
 ## Como usar
 
 1. Abra o notebook (no Colab ou no VS Code).
-2. Preencha o formulário **"Dados do produtor"** (no Colab vira listas e barrinhas): local, últimas culturas, tipo de solo
-   (arenoso, médio, argiloso, muito argiloso, "não sei" ou, com análise de solo, AD1…AD6),
+2. Edite só a célula **"Dados do produtor"**: local, histórico (ex.: `["soja", "milho_safrinha"]`), tipo de solo
+   (`"arenoso"`, `"médio"`, `"argiloso"`, `"muito argiloso"` ou, com análise de solo, `"AD1"`…`"AD6"`),
    data de plantio e pesos das prioridades.
 3. Rode tudo (*Run All*). O **Painel do produtor**, no fim, mostra a sugestão em linguagem simples, a tabela e o gráfico.
 
